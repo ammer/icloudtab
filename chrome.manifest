@@ -1,0 +1,5 @@
+content icloud chrome/content/
+overlay	chrome://messenger/content/mailWindowOverlay.xul	chrome://icloud/content/icloud.xul
+locale	icloud	en-US		chrome/locale/en-US/
+skin	icloud	classic/1.0	chrome/skin/
+

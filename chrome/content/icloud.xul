@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://icloud/skin/icloud.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://icloud/locale/icloud.dtd">
+
+<overlay id="icloud_overlay"
+	 xmlns:nc="http://home.netscape.com/NC-rdf#"
+	 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://icloud/content/icloud.js"/>
+  
+  <menupopup id="taskPopup">
+    <menuitem id="menu-icloudtab"
+	      label="icloud" 
+	      oncommand="giCloudTab.openTab()" />	
+  </menupopup>
+  
+  <hbox id="tabmail-buttons">
+    <toolbarbutton id="button-icloudtab-tabbar"
+		   tooltiptext="iCloud"
+		   oncommand="giCloudTab.openTab()">
+    </toolbarbutton>
+  </hbox>
+</overlay>
